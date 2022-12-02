@@ -152,7 +152,7 @@ function App() {
           arg(user.addr, types.Address), //address to which NFT should be minted
           arg("CatMoji # "+_id.toString(), types.String),
           arg("Cat emojis on the blockchain", types.String),
-          arg("ipfs://bafkreiexh5li2pbvhhfla56ldy6sweoqlqljdrzcxz7jrujz6gwj7ivvxa/"+_id+".png", types.String),
+          arg("ipfs://bafybeigmeykxsur4ya2p3nw6r7hz2kp3r2clhvzwiqaashhz5efhewkkgu/"+_id+".png", types.String),
         ],
         proposer: fcl.currentUser,
         payer: fcl.currentUser,
