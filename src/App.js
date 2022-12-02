@@ -150,9 +150,9 @@ function App() {
         cadence: `${mintNFT}`,
         args: (arg, t) => [
           arg(user.addr, types.Address), //address to which NFT should be minted
-          arg("RV # "+_id.toString(), types.String),
-          arg("RV for cats", types.String),
-          arg("https://bafkreiexh5li2pbvhhfla56ldy6sweoqlqljdrzcxz7jrujz6gwj7ivvxa.ipfs.nftstorage.link/", types.String),
+          arg("CatMoji # "+_id.toString(), types.String),
+          arg("Cat emojis on the blockchain", types.String),
+          arg("ipfs://bafkreiexh5li2pbvhhfla56ldy6sweoqlqljdrzcxz7jrujz6gwj7ivvxa/"+_id+".png", types.String),
         ],
         proposer: fcl.currentUser,
         payer: fcl.currentUser,
